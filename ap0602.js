@@ -150,7 +150,7 @@ for(let r = 0; r < param.nRow; r += 1){
       const dummy = makeDummy("red");
       dummy.position.set(
         (param.w + param.gapX) * (c - (param.nCol-1)/2),
-        (param.gapZ) * r -2,
+        (param.gapZ) * r -1.2,
         (param.d + param.gapZ) * (r + 5)
       )
       scene.add(dummy);
